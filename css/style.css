@@ -1,0 +1,394 @@
+.container{
+	margin: 0 auto;
+	width: 10000px;
+	height: 1000px;
+}
+Здесь базовые стили для глупых браузеров. Например, для телефонов не high-end уровня. Pocket Internet Explorer для Windows Mobile 6.5 здесь же :).
+ 
+@media only screen and (min-width: 480px) {
+ 
+Здесь стили более разумных, но все еще мобильных устройств. Android, iPhone  и так далее.
+ 
+}
+ 
+@media only screen and (min-width: 768px) {
+ 
+Планшеты в режиме portrait.
+ 
+}
+ 
+@media only screen and (min-width: 992px) {
+ 
+Планшеты в режиме landscape, нетбуки, ноутбуки, десктоп.
+ 
+}
+ 
+@media only screen and (min-width: 1382px) {
+ 
+Десктоп с большими разрешениями, телевизоры.
+ 
+}
+.search{
+  width: 400px;
+  height: 35px;
+  margin-top: 20px;
+  position: relative;
+  top: -12px;
+}
+
+
+.png{
+	width: 25px;
+	height: 25px;
+	margin-left: -30px;
+	position: relative;
+	top: 15px;
+}
+.search1{
+	height: 35px;
+	margin-top: 10px;
+}
+.search2{
+	height: 35px;
+	margin-top: 20px;
+	width: 195px;
+	margin-right: 10px;
+}
+.search3{
+	height: 35px;
+	margin-top: 20px;
+	width: 190px;
+	margin-right: 10px;
+}
+.box{
+	margin-bottom: 20px;
+	width: 15px;
+	height: 15px;
+	position: relative;
+	top: 6px;
+}
+.dropdown{
+	position: relative;
+		left: 10px;
+	top: 9px;
+	background: grey;
+}
+
+#dd{
+	position: relative;
+	left: 10px;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+    border: 1px solid black;
+    height: 34px;
+    left: 
+    margin-top: 10px;
+    margin-left:5px;
+    width: 190px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown1 {
+    position: relative;
+    display: inline-block;
+    border: 1px solid black;
+    height: 34px;
+    margin-top: 30px;
+    position: relative;
+    top: -10px;
+    width: 190px;
+}
+
+.dropdown-content1 {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+
+.dropdown1:hover .dropdown-content1 {
+    display: block;
+}
+.dropdown2 {
+    position: relative;
+    display: inline-block;
+    border: 1px solid black;
+    height: 34px;
+        margin-top: 20px;
+    position: relative;
+    top: -15px;
+    margin-left: 14px;
+    width: 200px;
+}
+
+.dropdown-content2 {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown2:hover .dropdown-content2 {
+    display: block;
+}
+.dropdown3 {
+    position: relative;
+    display: inline-block;
+    border: 1px solid black;
+    height: 34px;
+    margin-top: 20px;
+    position: relative;
+    top: -15px; 
+    width: 195px;
+}
+
+.dropdown-content3 {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown3:hover .dropdown-content3 {
+    display: block;
+}
+.dropdown4 {
+    position: relative;
+    display: inline-block;
+    border: 1px solid black;
+    height: 34px;
+        margin-top: 20px;
+    position: relative;
+    top: -0px; 
+    margin-left: 10px;
+    width: 200px;
+}
+.img{
+	position: relative;
+	left: 40px;
+}
+.img1{
+		position: relative;
+	left: 20px;
+}
+.img2{
+		position: relative;
+	left: 30px;
+}
+.img3{
+		position: relative;
+	left:25px;
+}
+.img4{
+		position: relative;
+	left: 45px;
+}
+.dropdown-content4 {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown4:hover .dropdown-content4 {
+    display: block;
+}
+.box{
+	margin-top: 20px;
+	margin-left: 10px;
+
+}
+.box1{
+	margin-top: 20px;
+	margin-left: 10px;
+
+}
+.box3{
+	margin-top: 20px;
+	margin-left: 10px;
+	width: 15px;
+	height:	 15px;
+}		
+
+	
+.box0{
+	margin-left: 10px;
+	margin-top: 20px;
+}
+.box2{
+		margin-left: 50px;
+	margin-top: 20px;
+}
+.box4{
+		margin-left: 110px;
+	margin-top: 20px;
+}
+.box12{
+		position: relative;
+		left: 105px;
+	margin-top: 11px;
+	width: 15px;
+	height: 15px;
+	margin-top: 25px;
+
+}
+.box11{
+		position: relative;
+		left: 45px;
+	margin-top: 11px;
+	width: 15px;
+	height: 15px;
+	margin-top: 25px;
+
+}
+.box10{
+		position: relative;
+		left: 5px;
+	margin-top: 11px;
+	width: 15px;
+	height: 15px;
+	margin-top: 25px;
+
+}
+.date{
+	width: 50px;
+	height: 50px;
+	border: 1px solid black; 
+	position: relative;
+	left: 10px;
+}
+.date{
+	width: 80px;
+	height: 34px;
+	border: 1px solid black;
+	margin-top: 10px;
+	margin-left: 10px;
+		position: relative;
+	left: 10px;
+}
+.minus{
+	width: 20px;
+	height: 1px;
+	margin-top: 25px;
+	margin-left: 10px;
+	border: 1px solid black;
+		position: relative;
+	left: 10px;
+}
+.date2{
+	width: 80px;
+	height: 34px;
+	border: 1px solid black;
+	margin-top: 10px;
+	margin-left: 10px;
+		position: relative;
+	left: 20px;
+}
+img{
+	margin-left: 60px;
+}
+button{
+background: darkblue;
+color: white;
+width: 80px;
+height:50px;
+border-radius: 40%
+
+}
+.dropdown4, .dropdown1, .dropdown2, .dropdown3{
+	background-color: grey;
+	margin-bottom: 10px;
+}
+.p{
+	font-weight: bold;
+	position: relative;
+	top: -515px;
+	left: 390px;
+}
+.p1{
+	font-weight: bold;
+	position: relative;
+	top: -555px;
+	left: 590px;
+}
+.p2{
+	font-weight: bold;
+	position: relative;
+	top: -535px;
+	left: -10px;
+}
+.p3{
+	font-weight: bold;
+	position: relative;
+	top: -575px;
+	left: 187px;
+}
+.p4{
+	font-weight: bold;
+	position: relative;
+	top: -615px;
+	left: 400px;
+}
+.p5{
+	font-weight: bold;
+	position: relative;
+	top: -655px;
+	left: 590px;
+}
+.p6{
+	font-weight: bold;
+	position: relative;
+	top: -615px;
+	left: -10px;
+}
+
+.p7{
+	font-weight: bold;
+	position: relative;
+	top: -655px;
+	left: 190px;
+}.p8{
+	font-weight: bold;
+	position: relative;
+	top: -700px;
+	left: 400px;
+}
+.p9{
+	font-weight: bold;
+	position: relative;
+	top: -740px;
+	left: 595px;
+}
+.p10{
+	font-weight: bold;
+	position: relative;
+	top: -715px;
+	left: -15px;
+}
